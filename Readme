@@ -1,0 +1,16 @@
+Used Playwright as a UI automation framework (https://playwright.dev/docs/intro)
+
+# Instructions
+
+Please run `npm i` before running the test suite
+
+# Run tests
+
+`npm run test:headless` Runs the end-to-end tests.
+`npm run test:ui`: Starts the interactive UI mode.
+`npm run test:report` opens test report in a browser
+
+# You can configure browsers in playwright.config.js
+
+minor-bug: In my machine chrome and chromium is not loading iframe from codepen in almanac test case
+Except that all test cases are passing in all major browsers
